@@ -1,13 +1,13 @@
 // Exercise 10
 
-const calculateGrade = (gradeInput = 0) => {
-    if ((gradeInput/100) >= 90) {
+const calculateGrade = (gradeInput) => {
+    if (gradeInput >= 90) {
         return "A";
-    }     else if ((gradeInput/100) >= 80) {
+    }     else if (gradeInput >= 80) {
         return "B";
-    }     else if ((gradeInput/100) >= 70) {
+    }     else if (gradeInput >= 70) {
         return "C";
-    }     else if ((gradeInput/100) >= 60) {
+    }     else if (gradeInput >= 60) {
         return "D";
     }     else {
         return "F";
